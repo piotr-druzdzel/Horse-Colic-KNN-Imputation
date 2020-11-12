@@ -14,7 +14,7 @@
 
 4. Relevant Information:
 
-   -- 2 data files
+   -- 2 data files 
       -- horse-colic.data: 300 training instances
       -- horse-colic.test: 68 test instances
    -- Possible class attributes: 24 (whether lesion is surgical)
@@ -31,11 +31,11 @@
           1 = Yes, it had surgery
           2 = It was treated without surgery
 
-  2:  Age
+  2:  Age 
           1 = Adult horse
           2 = Young (< 6 months)
 
-  3:  Hospital Number
+  3:  Hospital Number 
           - numeric id
           - the case number assigned to the horse
             (may not be unique if the horse is treated > 1 time)
@@ -50,7 +50,7 @@
                eg. may start out normal, then become elevated because of
                    the lesion, passing back through the normal range as the
                    horse goes into shock
-  5:  pulse
+  5:  pulse 
           - linear
           - the heart rate in beats per minute
           - is a reflection of the heart condition: 30 -40 is normal for adults
@@ -118,7 +118,7 @@
             surgery
           - prior treatment of pain may mask the pain level to some extent
 
- 12: peristalsis
+ 12: peristalsis                              
           - an indication of the activity in the horse's gut. As the gut
             becomes more distended or the horse becomes more toxic, the
             activity decreases
